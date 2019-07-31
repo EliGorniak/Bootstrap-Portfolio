@@ -1,0 +1,137 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    max-width: 80%;
+    background:url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.navbar {
+    max-width: 960px;
+    margin: auto;
+    background: #777777;
+    border-radius: 7px;
+    opacity: 0.6;
+    margin-top: 20px;
+}
+
+.navbar-brand {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Sacramento', cursive;
+
+}
+
+a:hover{
+    color: #4aaaa5;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+.jumbotron {
+    font-family: 'Quicksand', sans-serif;
+    background: transparent;
+    color: rgb(88, 89, 90);
+    height: 400px;
+    padding: 100px;
+    max-width: 880px;
+    margin: auto;
+    margin-top: 70px;
+    text-shadow: 20px 20px 20px #000;    
+}
+
+.jumbotron .container {
+    display: inline;
+    align-items: center;
+}
+
+.main-content {
+    max-width: 960px;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 10px;
+    margin-left: 140px;
+    padding: 10px;
+    background: #ffffff;
+    opacity: 0.7;
+    border: 10px;
+    color: #777777;
+    /* height: 300px; */
+    content: '';
+    display: inline-block;
+    clear: both;
+}
+
+.container-form{
+    max-width: 960px;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 10px;
+    margin-left: 140px;
+    padding: 10px;
+    background: #ffffff;
+    opacity: 0.7;
+    border: 10px;
+    color: #777777;
+    /* height: 300px; */
+    content: '';
+    display: inline-block;
+    clear: both;
+    
+}
+
+.btn {
+    color: #f6f7f1;
+    text-decoration:none;
+    background: #979696;
+    border: none;
+}
+
+
+.card-img-top:hover{
+    opacity: 0.7;    
+}
+
+form .container {
+    max-width: 940px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 120px;
+    margin-left: 140px;
+    margin-bottom: 20px;
+    background: #ffffff;
+    opacity: 0.7;
+    padding: 20px;
+    border: 30px;
+    color: #777777;
+    /* height: 300px; */
+    content: '';
+    display: table;
+    clear: both; 
+}
+
+
+footer p {
+    color: antiquewhite;
+}
+
+.text-muted {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(141, 146, 146);
+}
+
